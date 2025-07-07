@@ -51,8 +51,8 @@ exposure_clumped<- ieugwasr::ld_clump(
   clump_r2 = 0.01,
   clump_p = 0.99,
   pop = "EUR",
-  bfile = "/user/work/cd17108/REF_PANEL/EUR",
-  plink_bin ="/user/home/cd17108/plink_linux_x86_64_20240818/plink")
+  bfile = "/dir/REF_PANEL/EUR",
+  plink_bin ="/dir/plink_linux_x86_64_20240818/plink")
   
   setwd("/dir/revision_03_07_25/mr/results")
 if(file.exists("instruments_psychiatric.txt") == TRUE) {
