@@ -15,7 +15,7 @@ using "\dir\revision_03_07_25\prs\results\asthma_validation.dta", replace
 forval k=1/13 {
 foreach exposure in zscore_asthma_prs_child_S`k' {
 	local i=0
-	foreach outcome in asthma_7 asthma_10 {
+	foreach outcome in asthma_7 {
 		local i = `i' + 1		
 		logistic `outcome' `exposure' pc1 pc2 pc3 pc4 pc5 ///
 		pc6 pc7 pc8 pc9 pc10 sex
