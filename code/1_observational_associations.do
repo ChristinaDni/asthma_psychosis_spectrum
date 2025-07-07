@@ -8,7 +8,7 @@ cd "\dir\revision_03_07_25\observational\results"
 *Crude analyses between all exposures-outcomes
 
 global obs_expvars asthma_7
-global outvars PE18_24TH_noSF PE18_24TH_noSF_disORfreq Ppliks18_noattSF_current pliks24TH_noattSF_current 
+global outvars PE18_24TH_noSF PE18_24TH_noSF_disORfreq pliks18_noattSF_current pliks24TH_noattSF_current 
 global obs_covars sex parity mat_education fin_problems mat_anxiety mat_depression house_smoking iq_8
 
 *Unadjusted analyses
