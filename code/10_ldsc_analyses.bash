@@ -1,4 +1,4 @@
-module load ldsc/2.0.1-openblas
+
 source activate ldsc
 
 cd /dir/ldsc-master
